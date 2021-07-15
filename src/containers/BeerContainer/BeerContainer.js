@@ -10,7 +10,7 @@ export default function BeerContainer(props) {
   return (
     <main>
       <Container className="p-3">
-        <Row>
+        <Row className="p-3">
           {props.data.map((beer) => (
             <BeerComponent beer={beer} />
           ))}
